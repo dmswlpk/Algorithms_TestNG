@@ -61,7 +61,6 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
         //assert
         Assert.assertEquals(actualResult, expectedResult);
-        Assert.assertEquals(actualResult,expectedResult);
     }
 }
 
